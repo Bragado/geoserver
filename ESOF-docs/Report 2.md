@@ -7,6 +7,14 @@
 2. [Overall Description and Use Cases](#description)    
 4. [Non-functional Requirements](#nonfunc)
  1. [WFS, WCS and WMS](#services)
+ 2. [Formats and Protocols](#formats)
+ 3. [Performance](#perfomance)
+ 4. [Security: Authentication](#authentication)
+ 5. [Layer Security](#layer)
+ 6. [Service Security](#services)
+ 7. [Google Earth]("google")
+ 8. [Performance]("performance")
+  
 
 ### <a name="intro"></a> 1. Introduction
 
@@ -50,3 +58,7 @@ To allow sharing of data GeoServer implements the following widely used open sta
 
 * [WMS](http://www.opengeospatial.org/standards/wms) versions 1.1.1, the most used, and 1.3.0. WMS provides a standard for geospatial map image requests, allowing clients to combine multiple images.
  * GeoServer also provides KML as a WMS output, allowing integration with for example, google earth.
+
+ #### <a name="formats"></a> 3.2 Formats and Protocols
+ <u> Vector files </u>, shape files,
+
